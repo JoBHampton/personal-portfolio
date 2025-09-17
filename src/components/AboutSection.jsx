@@ -13,7 +13,7 @@ export const AboutSection = () => {
                     <div className='space-y-6'>
                         <h3 className='text-2xl font-semibold'> Hi! Thank you for checking out my website</h3>
                         <p className='text-muted-foreground'> 
-                            I'd love to answer any questions you have!
+                            I'd love to answer any questions you have! PLease
                         </p>
 
                         <div className='flex flex-col sm:flex-row gap-4 pt-4 justify-center'>
