@@ -18,7 +18,7 @@ export const AboutSection = () => {
 
                         <div className='flex flex-col sm:flex-row gap-4 pt-4 justify-center'>
                             <a href='#contact' className='cosmic-button'> Contact Me</a>
-                            <a target= '_blank'href='/resume/JHampton-Resume-Sep-2025.pdf' className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300'> Check My Resume</a>
+                            <a target= '_blank'href='/personal-portfolio/resume/JHampton-Resume-Jan-2026.pdf' className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300'> Check My Resume</a>
                         </div>
                         
                     </div>
@@ -31,7 +31,7 @@ export const AboutSection = () => {
                                 </div>
                                 <div className='text-left'>
                                     <h4 className='font-semibold text-lg'> Who am I?</h4>
-                                    <p className='test-muted-foreground'> I am a senior at the University of Alabama, graduating December 2025 with a degree in Computer Science.</p>
+                                    <p className='test-muted-foreground'> I am a graduate from the University of Alabama with a degree in Computer Science and a minor in Math.</p>
 
                                 </div>
                             </div>
@@ -43,7 +43,15 @@ export const AboutSection = () => {
                                 </div>
                                 <div className='text-left'>
                                     <h4 className='font-semibold text-lg'> Relevant Coursework</h4>
-                                    <p className='test-muted-foreground'> I have completed all of the primary courses for an undergraduate degree in Computer Science. Along with those courses, I have taken Artificial Intelligence and am currently taking Computer Vision, Intro to Autonomous Robotics, Full-Stack Development and my Senior Design course.</p>
+                                    <p className='test-muted-foreground'> I have completed all of the primary courses for an undergraduate degree in Computer Science. Along with those courses, I have taken or am in the process of taking: </p>
+                                    <ul lassName='test-muted-foreground'> 
+                                        <li>·Artificial Intelligence,</li> 
+                                        <li>·Computer Vision,</li>
+                                        <li>·Intro to Autonomous Robotics,</li> 
+                                        <li>·Full-Stack Development,</li>
+                                        <li>·Senior Design</li>
+
+                                    </ul>
 
                                 </div>
                             </div>

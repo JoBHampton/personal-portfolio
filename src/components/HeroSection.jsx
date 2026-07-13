@@ -15,8 +15,7 @@ export const HeroSection = () => {
                     </h1>
 
                     <p className='text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3'>
-                        I'm a graduating senior from the University of Alabama, currently pursuing a degree in Computer Science with a 
-                        minor in Mathematics. 
+                        I'm a DFW native and University of Alabama graduate with a degree in Computer Science and a minor in Mathematics.
                     </p>
 
                     <div className='pt-4 opacity-0 animate-fade-in-delay-4'>

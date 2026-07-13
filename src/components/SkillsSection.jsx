@@ -8,6 +8,7 @@ const skills = [
     {name: 'JavaScript', level:70, catergory: 'frontend', symbol: LaptopMinimal},
     {name: 'Godot', level:75, catergory: 'frontend', symbol: LaptopMinimal},
     {name: 'Unity', level:70, catergory: 'frontend', symbol: LaptopMinimal},
+    {name: 'React+Vite', level:70, catergory: 'frontend', symbol: LaptopMinimal},
     
 
 
@@ -23,6 +24,8 @@ const skills = [
     {name: 'Git/GitHub', level: 90, catergory: 'tools', symbol: Wrench},
     {name: 'Unit Testing', level: 85, catergory: 'tools', symbol: Wrench},
     {name: 'Technical Writing', level: 75, catergory: 'tools', symbol: Wrench},
+    {name: 'Github Pages', level: 60, catergory: 'tools', symbol: Wrench},
+    {name: 'Vercel', level: 60, catergory: 'tools', symbol: Wrench},
 
 ];
 

@@ -1,4 +1,4 @@
-import { GithubIcon, Linkedin, Mail, Phone, Send } from "lucide-react";
+import { GithubIcon, Linkedin, LucideGamepad, Mail, Phone, Send } from "lucide-react";
 import { cn } from "../lib/utils";
 
 export const ContactSection = () => {
@@ -78,6 +78,11 @@ export const ContactSection = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div >
+                    <a href = '/personal-portfolio/game2.1/index.html'>
+                        <LucideGamepad className='h-6 w-6 text-background hover:text-primary'/>
+                    </a>
                 </div>
 
         </section>

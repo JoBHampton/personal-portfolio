@@ -6,10 +6,12 @@ import path from "path"
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: '/personal-portfolio',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src")
     }
-  },
-  base: "/personal-portfolio"
+  }
+  // base: process.env.NODE_ENV === "production" ? "/personal-portfolio/" : "/"
+
 });

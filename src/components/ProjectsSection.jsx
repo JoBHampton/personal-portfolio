@@ -5,28 +5,37 @@ const projects = [
         id: 1,
         title: 'AI Sticks Game',
         desc: 'Play against an AI in the classic childhood game of sticks',
-        img: '/projects/sticks.png',
+        img: '/personal-portfolio/projects/sticks.png',
         tags: ['AI', 'Python', 'CLI'],
         gitUrl: 'https://github.com/JoBHampton/Sticks',
-        demoUrl: '#',
+        demoUrl: 'https://github.com/JoBHampton/Sticks',
     },
     {
         id: 2,
-        title: 'Predicting Values of SVR models',
-        desc: 'Using SVR models to predict data',
-        img: '/projects/project2.png',
-        tags: ['Python', 'SVR Models', 'AI'],
-        gitUrl: '#',
+        title: 'Personal Portfolio',
+        desc: 'This very website! My personal portfolio was built using ReactJS',
+        img: '/personal-portfolio/projects/website.png',
+        tags: ['React', 'JavaScript', 'HTML'],
+        gitUrl: 'https://github.com/JoBHampton/personal-portfolio/',
         demoUrl: '#',
     },
     {
         id: 3,
         title: 'IMdB TV Insights',
         desc: 'Given a set of certain tv shows, this program will find the highest ranking episode of each show',
-        img: '/projects/tvinsights.png',
+        img: '/personal-portfolio/projects/tvinsights.png',
         tags: ['Python', 'Data Analytics', 'CSV/TSV'],
         gitUrl: 'https://github.com/JoBHampton/IMDB-TV-Insights',
-        demoUrl: '#',
+        demoUrl: 'https://github.com/JoBHampton/IMDB-TV-Insights',
+    },
+    {
+        id: 4,
+        title: 'Big Spoon Yum',
+        desc: 'A website requested by the University of Alabama Recreation Department. The department often takes students on backpacking trips and in order to cut down on costs and time, they wanted a website that would let the user pick recipes for the trip and then print out a list of ingredients and assorted costs.',
+        img: '/personal-portfolio/projects/bsy.png',
+        tags: ['React', 'Javascript', 'Git', 'Github Pages', 'Vercel', 'MongoDB'],
+        gitUrl: 'https://github.com/garussell1/bigSpoonYum',
+        demoUrl: 'https://garussell1.github.io/bigSpoonYum/',
     },
     
 ]
@@ -65,13 +74,13 @@ export const ProjectsSection = () => {
                             <p className='text-muted-foreground text-sm mb-4'> {project.desc} </p>
                             <div className='flex justify-between items-center'>
                                 <div className='flex space-x-3'>
-                                    {/* <a 
+                                    <a 
                                         href={project.demoUrl} 
                                         target='_blank'
                                         className='text-foreground/80 hover:text-primary transition-colors duration-300'
                                     >
                                         <ExternalLink size={20}/>
-                                    </a> */}
+                                    </a>
                                     <a  
                                         href={project.gitUrl}
                                         target='_blank'
